@@ -1,0 +1,8 @@
+conditional operator represented by ?:
+
+( condition_expression ) ? exp1 : exp2 
+
+# conditional_expression evaluates to a bolean value 
+# if condition_expression is true , then balue of exp1 is returned 
+# if condition_expression is false , then balue of exp2 is returned
+# alternative to if-else construct , vey useful when used inline 

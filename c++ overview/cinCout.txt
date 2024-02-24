@@ -1,0 +1,9 @@
+cout 
+# standard output stream 
+# console 
+# insertion operator <<
+
+cin 
+# standard input stream 
+# keyboard 
+# extraction operator >>

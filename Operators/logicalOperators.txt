@@ -1,0 +1,14 @@
+LOGICAL OPERATORS 
+
+# precedence
+1. NOT has higher precedence than AND 
+2. AND has higher precedence than OR
+3. NOT is unary operator 
+4. AND and OR are binary operators 
+
+# unary operattor acts upon a single operand to produce a new value 
+
+# The operators indicate what action or operation to perform 
+
+# The operands indicate what items to apply the action to
+

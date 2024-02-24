@@ -1,0 +1,20 @@
+# Character functions 
+
+-> header file #include<cctype>
+-> functions for testing characters 
+-> functions for converting character case 
+
+# Testing charaters 
+
+isalpha(c) // true if c is a letter
+isalnum(c) // true if c is a letter or digit 
+isdigit(c) // true if c is a digit
+islower(c) // true if c is a lowercase letter 
+isupper(c) // true if c is a uppercase letter
+ispunct(c) // true if c is a punctuation character
+isprint(c) // true if c is a printble character
+isspace(c) // true if c is a whitespace 
+
+# converting characters
+tolower(c) // return lowercase of c 
+toupper(c) // return uppercase of c

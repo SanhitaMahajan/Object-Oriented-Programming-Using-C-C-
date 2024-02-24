@@ -1,0 +1,25 @@
+C++ Looping Constructs 
+
+# For Loop 
+-> iterate a specific number of times 
+
+# Range based for loop 
+-> one iteration for each elements in a range of collection 
+
+# while loop 
+-> iterate while condition remains true
+->stop when condition is false
+->check condition at the begining of every iteration 
+
+# do-while loop 
+-> iterate while condition is true, stop when condition is false
+->check condition at the end of every iteration 
+->do while loop execute at least one time 
+
+# Infinite loop 
+-> loops shose condition expression always evaluate to tru 
+-> usually this is unintended and a programmer error 
+-> sometimes programmers use infinite loops and include and break statement in the body to control them 
+-> sometimes infinite loop are exactly what we want need 
+* event loop in a event-driven program 
+* operating system 

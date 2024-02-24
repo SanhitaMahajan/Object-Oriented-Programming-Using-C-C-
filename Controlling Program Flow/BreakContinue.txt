@@ -1,0 +1,16 @@
+# Continue 
+-> no further statement in the body of the loop are executed 
+-> control immediately goes directly to the begining of the loop for next iteration 
+
+# Break 
+-> no further statements in the body of the loop are executed 
+-> loop is immediately terminated 
+-> control immediately goes to the statement following the loop construct 
+
+# Infinite loops 
+-> loops whose condition expression always evalute to true
+-> usually this is unintended and a programmer error 
+-> sometimes programmmers use Infinite loops & include and break statements in the body to control them 
+-> sometimes infinite loops are exactly what we want
+* event loop in an event-driver program
+* operating system 
