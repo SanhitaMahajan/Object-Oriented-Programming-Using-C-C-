@@ -1,0 +1,117 @@
+Variables in C 
+
+1. **What is a Variable?**
+  - A variable is a named storage location in the computer's memory where data can be stored and manipulated.
+  - It has a unique identifier (name) that is used to refer to it within the program.
+
+2. **Rules to Declare Variables**:
+  - Variable names must start with a letter (uppercase or lowercase) or an underscore `_`.
+  - Subsequent characters can be letters, digits, or underscores.
+  - Variable names are case-sensitive.
+  - Variable names should not be keywords or reserved words.
+  - Variable names should be meaningful and descriptive.
+
+
+3. **Variable Declaration**:
+  - It is the process of informing the compiler about the data type and name of the variable.
+  - Example:
+    ```c
+    int count;
+    float price;
+    char letter;
+    ```
+
+4. **Variable Definition**:
+  - A variable definition allocates memory space for the variable and associates a name with it.
+  - It includes both declaration and initialization.
+  - Example:
+    ```c
+    int count = 0;
+    float price = 10.99;
+    char letter = 'A';
+    ```
+
+5. **Variable Initialization**:
+  - Initialization is the process of assigning an initial value to a variable at the time of its declaration.
+  - It is optional, but recommended to avoid using uninitialized variables.
+  - Example:
+    ```c
+    int count = 0;
+    ```
+
+6. **Types of Variables**:
+  I. **Local Variables**:
+     - Declared inside a function or a block.
+     - Their scope is limited to the block or function in which they are declared.
+     - Example:
+       ```c
+       void function() {
+           int local_variable;
+           // code
+       }
+       ```
+
+  II. **Global Variables**:
+     - Declared outside of all functions.
+     - Can be accessed and modified by any function in the program.
+     - Example:
+       ```c
+       int global_variable;
+       void function() {
+           // code
+       }
+       ```
+
+  III. **Static Variables**:
+     - Retain their value between function calls.
+     - Declared using the `static` keyword.
+     - Example:
+       ```c
+       void function() {
+           static int static_variable = 0;
+           // code
+       }
+       ```
+
+  IV. **Automatic (or Local) Variables**:
+     - Variables declared inside a function without the `static` keyword.
+     - Their memory is allocated when the function is called and deallocated when the function exits.
+     - Example:
+       ```c
+       void function() {
+           int automatic_variable;
+           // code
+       }
+       ```
+
+  V. **Extern Variables**:
+     - Variables declared in one file and used in another file.
+     - Declared using the `extern` keyword in the file where it is used.
+     - Example:
+       ```c
+       // File: file1.c
+       int extern_variable;
+
+       // File: file2.c
+       extern int extern_variable;
+       ```
+
+  VI. **Register Variables**:
+     - Variables declared using the `register` keyword.
+     - Suggests to the compiler to store the variable in a CPU register for faster access.
+     - Example:
+       ```c
+       register int register_variable;
+       ```
+
+7. **Variable Scope**:
+  - Scope refers to the region of the program where a variable can be accessed.
+  - Variables can have local scope (limited to a block or function) or global scope (accessible throughout the program).
+  - Example:
+    ```c
+    int global_variable; // Global variable
+    void function() {
+        int local_variable; // Local variable
+        // code
+    }
+    ```

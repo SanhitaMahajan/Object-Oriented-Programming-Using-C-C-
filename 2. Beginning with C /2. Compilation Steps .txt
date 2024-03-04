@@ -1,0 +1,43 @@
+Here are the compilation steps of a C program :
+
+1. **Preprocessing**:
+  - The preprocessor scans the source code for preprocessor directives, such as `#include` and `#define`.
+  - It processes these directives by including header files (`#include`) and performing macro expansions (`#define`).
+  - Command: `gcc -E hello.c -o hello.i`
+
+2. **Compilation**:
+  - The preprocessed source code is passed to the compiler, such as GCC (GNU Compiler Collection) or Clang.
+  - The compiler translates the preprocessed code into assembly code specific to the target platform.
+  - It performs syntax checking and generates object files (`.o` files) containing machine code instructions.
+  - Command: `gcc -S hello.i -o hello.s`
+
+3. **Assembly**:
+  - Some compilers may produce assembly code as an intermediate step.
+  - Assembly code is human-readable and represents a lower-level representation of the program's logic.
+  - Command: `gcc -c hello.s -o hello.o`
+
+4. **Linking**:
+  - The linker takes one or more object files generated during compilation and combines them into a single executable file.
+  - It resolves external references and dependencies, including functions and variables used across multiple source files.
+  - Additionally, the linker may link in necessary library code (e.g., standard libraries like `libc`) to the executable.
+  - Command: `gcc hello.o -o hello`
+
+5. **Loading**:
+  - In some cases, the operating system's loader loads the executable into memory for execution.
+  - The loader resolves dynamic dependencies, such as shared libraries, and allocates memory for the program's data and code segments.
+  - Command: `gcc hello.o -o hello`
+
+6. **Execution**:
+  - Once loaded into memory, the program begins execution, starting from the entry point specified by the operating system.
+  - In a C program, the entry point is typically the `hello()` function.
+  - The CPU executes the instructions sequentially, performing the tasks defined in the program.
+  - Command: ./hello (to execute the compiled program)
+
+
+So, in summary, the command-line steps for compiling and executing a C program are:
+
+gcc -E hello.c -o hello.i
+gcc -S hello.i -o hello.s
+gcc -c hello.s -o hello.o
+gcc hello.o -o hello
+./hello

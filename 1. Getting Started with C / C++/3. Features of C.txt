@@ -1,0 +1,19 @@
+Features of C language 
+
+1. **Procedural Language**: C is a procedural programming language, meaning it follows a top-down approach in designing the program's structure.
+2. **Middle-level Language**: C combines the features of both high-level and low-level languages, making it suitable for system programming as well as application development.
+3. **Portable**: C programs are highly portable, meaning they can be compiled and executed on various platforms with minimal or no modifications.
+4. **Efficient and Fast**: C is known for its efficiency and speed, making it suitable for developing system software and applications where performance is critical.
+5. **Static Typing**: C is statically typed, which means data types are explicitly declared before use, enhancing code readability and catching errors at compile time.
+6. **Rich Standard Library**: C provides a rich set of library functions, including I/O operations, string manipulation, math functions, memory allocation, etc., which simplifies program development.
+7. **Pointer Support**: C supports pointers, which are variables that store memory addresses. Pointers allow for direct memory manipulation and efficient data structures implementation.
+8. **Structured Programming Constructs**: C supports structured programming constructs like loops, conditionals, functions, and modular programming, facilitating code organisation and maintenance.
+9. **Recursion**: C supports recursive function calls, allowing functions to call themselves, which is useful for solving problems that can be broken down into smaller instances.
+10. **Inline Assembly**: C allows inline assembly language code, enabling low-level manipulation and interfacing with hardware when necessary.
+11. **Extensibility**: C is highly extensible, allowing developers to create libraries and integrate code written in other languages like assembly or Fortran.
+12. **Preprocessor Directives**: C uses preprocessor directives to manipulate source code before compilation, allowing for conditional compilation, file inclusion, and macro definition.
+13. **Community Support**: C has a large and active community of developers, providing access to a vast array of resources, tutorials, and forums for assistance and collaboration.
+14. **Legacy Codebase**: Many legacy systems and applications are written in C, making it essential for maintaining and understanding existing codebases in various industries.
+
+
+These features collectively make C a powerful and versatile programming language suitable for a wide range of applications, from operating systems and embedded systems to desktop applications and games.

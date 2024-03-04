@@ -1,0 +1,49 @@
+Operator 
+
+1. **Operator**:
+  - An operator is a symbol or function that represents a specific operation or action to be performed on one or more operands.
+  - Operators are used to manipulate values, perform calculations, and control program flow.
+
+2. **Operand**:
+  - An operand is a value or variable that is operated on by an operator.
+  - Operands can be constants, variables, expressions, or function calls.
+  - Operands provide the data on which the operator acts.
+
+3. **Examples**:
+  - In the expression `5 + 3`, `+` is the operator, and `5` and `3` are the operands.
+  - In the assignment statement `x = y + z`, `=` is the assignment operator, and `x`, `y`, and `z` are the operands.
+  - In the function call `printf("Hello, world!\n")`, `printf` is the function name (operator), and `"Hello, world!\n"` is the operand (argument).
+
+A. **Unary Operators**:
+  - Operate on a single operand.
+  - Examples:
+    - Unary plus (`+`): Indicates a positive value.
+    - Unary minus (`-`): Negates a value.
+    - Increment (`++`): Increases the value by 1.
+    - Decrement (`--`): Decreases the value by 1.
+    - Logical NOT (`!`): Inverts the boolean value.
+    - Bitwise NOT (`~`): Inverts the bits of a value.
+    - Address-of (`&`): Returns the memory address of a variable.
+    - Dereference (`*`): Accesses the value stored at a memory address.
+    - Sizeof (`sizeof`): Returns the size of a variable or data type.
+
+B. **Binary Operators**:
+  - Operate on two operands.
+  - Examples:
+    - Addition (`+`): Adds two values.
+    - Subtraction (`-`): Subtracts one value from another.
+    - Multiplication (`*`): Multiplies two values.
+    - Division (`/`): Divides one value by another.
+    - Modulus (`%`): Returns the remainder of a division.
+    - Assignment (`=`): Assigns a value to a variable.
+    - Logical AND (`&&`): Returns true if both operands are true.
+    - Logical OR (`||`): Returns true if at least one operand is true.
+    - Relational operators (`==`, `!=`, `<`, `>`, `<=`, `>=`): Compare two values.
+
+C. **Ternary Operator**:
+  - Operates on three operands.
+  - Example:
+    - Conditional Operator (`? :`): Evaluates a condition and returns one of two values based on the result.
+
+More On Operator Precedence and Associativity in C - 
+https://www.geeksforgeeks.org/operator-precedence-and-associativity-in-c/?ref=lbp

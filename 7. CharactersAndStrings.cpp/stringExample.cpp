@@ -100,9 +100,4 @@ int main(){
     std::getline(std::cin, fullName);
     cout<<"Your full name is "<<fullName<<endl;
 
-
-
-
-
-
 }

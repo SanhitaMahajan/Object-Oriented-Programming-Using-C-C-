@@ -1,0 +1,44 @@
+
+1. **Scope Rules in C**:
+  - Scope refers to the region of the program where a variable or identifier is accessible.
+  - Different types of variables have different scopes, which determine where they can be accessed within the program.
+
+
+2. **Local Scope**:
+  - Variables declared inside a function or a block have local scope.
+  - They are accessible only within the function or block in which they are declared.
+  - Example:
+    ```c
+    void function() {
+        int local_variable = 10; // local_variable has local scope
+        // local_variable can be accessed here
+    }
+    // local_variable is not accessible here
+    ```
+
+3. **Global Scope**:
+  - Variables declared outside of all functions have global scope.
+  - They can be accessed and modified by any function in the program.
+  - Example:
+    ```c
+    int global_variable = 20; // global_variable has global scope
+    void function() {
+        // global_variable can be accessed and modified here
+    }
+    ```
+
+4. **Lifetime of Variables**:
+  - The lifetime of a variable refers to the duration for which the variable exists in memory.
+  - Variables with local scope typically have automatic storage duration and are created when the function is called and destroyed when the function exits.
+  - Variables with global scope typically have static storage duration and exist for the entire duration of the program's execution.
+
+
+5. **Summary of Scope Rules**:
+   A. Local variables:
+     - Scoped to the function or block in which they are declared.
+     - Exist only during the execution of the function or block.
+     - Memory is allocated when the function is called and deallocated when the function exits.
+   B. Global variables:
+     - Scoped to the entire program.
+     - Exist for the entire duration of the program's execution.
+     - Memory is allocated when the program starts and deallocated when the program terminates.

@@ -1,0 +1,38 @@
+
+1. **Arithmetic Operators**:
+  - Used to perform mathematical operations like addition, subtraction, multiplication, division, and modulus.
+  - Examples: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulus).
+
+2. **Relational Operators**:
+  - Used to compare two values and determine the relationship between them.
+  - Return a boolean result (`true` or `false`).
+  - Examples: `==` (equal to), `!=` (not equal to), `<` (less than), `>` (greater than), `<=` (less than or equal to), `>=` (greater than or equal to).
+
+3. **Logical Operators**:
+  - Used to perform logical operations on boolean values.
+  - Include AND (`&&`), OR (`||`), and NOT (`!`) operators.
+  - Examples: `&&` (logical AND), `||` (logical OR), `!` (logical NOT).
+
+4. **Assignment Operators**:
+  - Used to assign values to variables.
+  - Examples: `=` (assignment), `+=` (add and assign), `-=` (subtract and assign), `*=` (multiply and assign), `/=` (divide and assign), `%=` (modulus and assign).
+
+5. **Increment and Decrement Operators**:
+  - Used to increment or decrement the value of a variable by 1.
+  - Include pre-increment (`++var`), post-increment (`var++`), pre-decrement (`--var`), and post-decrement (`var--`) operators.
+
+6. **Bitwise Operators**:
+  - Used to perform bitwise operations on binary representations of data.
+  - Include AND (`&`), OR (`|`), XOR (`^`), complement (`~`), left shift (`<<`), and right shift (`>>`) operators.
+
+7. **Conditional Operator (Ternary Operator)**:
+  - Used for conditional expressions.
+  - Syntax: `condition ? expression1 : expression2`
+  - Evaluates `expression1` if `condition` is true, otherwise evaluates `expression2`.
+
+8. **Member Access Operators**:
+  - Used to access members of objects or structures.
+  - Include dot operator (`.`) and arrow operator (`->`).
+
+9. **Other Operators**:
+  - Include sizeof operator (`sizeof`), comma operator (`,`), address-of operator (`&`), pointer dereference operator (`*`), etc.

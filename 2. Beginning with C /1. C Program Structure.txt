@@ -1,0 +1,51 @@
+The structure of a C program typically consists of several key components, organised in a specific order. Here's the structure of a basic C program:
+
+Example C program 
+```c
+// Preprocessor Directives
+#include <stdio.h> // Include standard input-output library
+
+// Function Prototype Declaration (Optional)
+// Example: int add(int a, int b);
+
+// Global Variable Declaration (Optional)
+// Example: int globalVar;
+
+// Main Function
+int main() {
+    // Variable Declaration
+    // Example: int num1, num2, sum;
+
+    // Statements
+    // Example: printf("Enter two numbers: ");
+    //          scanf("%d %d", &num1, &num2);
+    //          sum = add(num1, num2);
+    //          printf("Sum = %d\n", sum);
+
+    // Return Statement
+    return 0;
+}
+
+// Function Definition (Optional)
+// Example: int add(int a, int b) {
+//              return a + b;
+//          }
+```
+
+Let's break down each component:
+
+1. **Preprocessor Directives**: These are instructions to the compiler to include certain header files or perform specific actions before compiling the code. For example, `#include <stdio.h>` is a directive to include the standard input-output library, allowing the use of functions like `printf()` and `scanf()`.
+
+2. **Function Prototype Declaration (Optional)**: This declares the prototype (signature) of functions before they are defined or used in the program. It's optional if functions are defined before they're used in the code.
+
+3. **Global Variable Declaration (Optional)**: Global variables are declared outside of any function and can be accessed by any function in the program. It's optional to declare global variables.
+
+4. **Main Function**: The `main()` function is the entry point of a C program. Execution of the program begins from this function. It can optionally return an integer value to the operating system upon completion (0 indicates successful execution).
+
+5. **Variable Declaration**: Inside the `main()` function, variables used in the program are declared. This reserves memory space for storing data during program execution.
+
+6. **Statements**: These are the executable statements that perform tasks such as input/output operations, calculations, and control flow operations. Statements are written within curly braces `{}`.
+
+7. **Return Statement**: The `return` statement is used to exit the `main()` function and return a value to the operating system. Typically, `return 0;` indicates successful completion of the program.
+
+8. **Function Definition (Optional)**: If functions are declared before being used, their definitions follow the `main()` function. Functions encapsulate a set of statements to perform specific tasks and can optionally return a value.

@@ -1,0 +1,89 @@
+Constant in C 
+
+1. **What is `const` in C?**
+  - `const` is a keyword in C used to define constants, i.e., variables whose values cannot be changed once initialized.
+
+2. **Rules of `const` Variables**:
+  - `const` variables must be initialized when declared.
+  - Once initialized, their values cannot be modified.
+  - They can be of any data type, including user-defined types.
+  - `const` variables have block scope by default, similar to other variables.
+
+3. **Use of the `const` Keyword**:
+  - The `const` keyword ensures that the value of a variable remains constant throughout the program.
+  - It provides better type safety compared to `#define`, as it is scoped and type-checked by the compiler.
+
+4. **Right Way to Declare Constants in C**:
+  - Using the `const` keyword is generally preferred over `#define` for defining constants in C.
+  - `const` variables offer type safety, scoping, and readability advantages over preprocessor macros.
+
+5. Various Ways to Define const Variables:
+   1. **Using `const` Keyword**:
+     - The `const` keyword is used to define constants in C.
+     - Syntax: `const data_type variable_name = value;`
+     - Example:
+     ```c
+     const int MAX_VALUE = 100;
+     ```
+
+   2. **Using Macros**:
+     - Macros are defined using the `#define` preprocessor directive.
+     - They are text substitutions and do not allocate memory.
+     - Syntax: `#define MACRO_NAME value`
+     - Example:
+     ```c
+     #define MAX_VALUE 100
+     ```
+
+   3. **Using `enum` Keyword**:
+     - The `enum` keyword is used to define enumeration types, which represent a set of named integer constants.
+     - Syntax:
+     ```c
+     enum enum_name {
+         constant1,
+         constant2,
+         // more constants
+     };
+     ```
+     - Example:
+     ```c
+     enum Weekday {
+         MONDAY,
+         TUESDAY,
+         WEDNESDAY,
+         THURSDAY,
+         FRIDAY,
+         SATURDAY,
+         SUNDAY
+     };
+     ```
+     - The constants inside an `enum` are implicitly assigned integer values starting from 0. You can explicitly assign values if needed.
+
+6. **Comparison**:
+   - Using `const`:
+     - Provides type safety.
+     - Variables have scope and can be type-checked by the compiler.
+     - Takes up memory space.
+   - Using Macros:
+     - Text substitutions, no type safety.
+     - Does not take up memory space directly.
+     - Can lead to unexpected behavior due to text substitution.
+   - Using `enum`:
+     - Defines a set of named integer constants.
+     - Provides type safety.
+     - Enum constants have scope and can be type-checked by the compiler.
+
+
+In general, using `const` and `enum` is preferred over macros for defining constants in C due to their type safety and scoping properties. However, macros are still commonly used for defining constants in certain scenarios, especially when portability or performance is a concern.
+
+
+7. **Literals in C**:
+  - Literals are fixed values that are directly represented in the source code.
+  - They can be of different types such as integer literals, floating-point literals, character literals, etc.
+  - Example:
+    ```c
+    int num = 10;       // Integer literal
+    float pi = 3.14;    // Floating-point literal
+    char ch = 'A';      // Character literal
+    ```
+

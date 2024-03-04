@@ -1,0 +1,23 @@
+
+1. **Comments**:
+  - Comments are non-executable lines used for documentation and explanation within the code.
+  - They are ignored by the compiler during the compilation process.
+  - Single-line comments start with `//`, while multi-line comments are enclosed between `/*` and `*/`.
+
+2. **Identifiers**:
+  - Identifiers are names given to various program elements such as variables, functions, and labels.
+  - They must begin with a letter (uppercase or lowercase) or an underscore `_`.
+  - Subsequent characters can be letters, digits, or underscores.
+
+3. **Keywords**:
+  - Keywords are reserved words that have predefined meanings in the C language.
+  - They cannot be used as identifiers.
+  - Examples include `int`, `if`, `else`, `while`, `return`, etc.
+
+
+For More Details References Links - 
+1. Comments - https://www.geeksforgeeks.org/c-comments/?ref=lbp
+
+2. Identifiers & Tokens - https://www.geeksforgeeks.org/tokens-in-c/?ref=lbp
+
+3. Keywords - https://www.geeksforgeeks.org/keywords-in-c/?ref=lbp
