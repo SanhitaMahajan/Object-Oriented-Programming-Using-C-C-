@@ -1,6 +1,10 @@
 /*
 Problem Statement - 
-Write an Algorithm to Display the area and perimeter of rectangle from user , take required input from user 
+Write a program to print the area and perimeter of a rectangle, take required input from user?
+
+Hint : 
+Area = length * breadth
+Perimeter = 2 * ( length + breadth )
 */
 
 /*

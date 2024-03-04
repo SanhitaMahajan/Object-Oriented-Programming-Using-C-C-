@@ -1,6 +1,8 @@
 /*
 Problem Statement - 
-Implement a program in c to swap the values of two variables. 
+1. Implement a program to swap the values of two variables.
+
+2. Implement a program to swap the values of two variables without using a third variable.
 */
 
 /*
